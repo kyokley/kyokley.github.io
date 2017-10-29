@@ -1,3 +1,4 @@
 theme: jekyll-theme-time-machine
 title: 2's Complement
-description: Trials and tribulations of a software developer
+description: Trials and tribulations in software development
+show_downloads: false
