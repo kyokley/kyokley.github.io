@@ -1,6 +1,9 @@
 <div class="download-bar">
     <div class="inner">
       <a href="{{ site.github.owner_url }}" class="code">View my code on GitHub</a>
+          {% if page.url != "/" %}
+            Return <a href="{{ site.url }}">home</a>
+          {% endif %}
     </div>
     <span class="blc"></span><span class="trc"></span>
 </div>
