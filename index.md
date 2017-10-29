@@ -5,6 +5,9 @@ My name is Kevin Yokley and I write code.
 ### A work in progress...
 My goal for this page is to be a place for me to collect my thoughts and possibly showcase some of the things I'm working on. As such, this site may be in a constant state of flux. Check back often!
 
+## Posts
+{{ site.posts }}
+
 ## Gists
 - VIM Hooks - Some writeups on how to automate some syntax checks to help write better code
 	1. [Trailing whitespace handling](https://gist.github.com/kyokley/944de46ab0b35ef4df14)
