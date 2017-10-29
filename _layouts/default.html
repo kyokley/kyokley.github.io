@@ -14,6 +14,9 @@
         <article class="markdown-body">
           {{ content }}
         </article>
+        {% if page.url != "/" %}
+            <a href="{{ site.url }}">Return home</a>
+          {% endif %}
       </div>
     </div>
     {% include footer.html %}
