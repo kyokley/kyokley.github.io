@@ -38,6 +38,7 @@ Below are repos that contain the various config files for my development environ
 - [Dotfiles](https://github.com/kyokley/dotfiles) (These are a collection of general configs)
 - [NeoVim](https://github.com/kyokley/nvimRepo)
 - [Vim](https://github.com/kyokley/vimRepo) (I mostly use NeoVim exclusively now so this repo is not actively updated.)
-- [Prezto](https://github.com/kyokley/prezto)
+- Zsh with [Prezto](https://github.com/kyokley/prezto)
 
-## [About Me]({{ site.baseurl }}{% link aboutme.md %})
+## About Me
+Learn a bit [about me]({{ site.baseurl }}{% link aboutme.md %})
