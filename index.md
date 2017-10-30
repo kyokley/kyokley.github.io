@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Welcome to 2's Complement
 
 My name is Kevin Yokley and I write code.
@@ -24,7 +28,7 @@ My goal for this page is to be a place for me to collect my thoughts and possibl
 	3. [Static analysis for security](https://gist.github.com/kyokley/3e868a6575d28cb4020694876d8f16b7)
 
 ## Projects
-- [BattlePy](https://github.com/kyokley/BattlePyAI) - Framework for creating AIs to play a BattleShip-like game
+- [BattlePy](https://github.com/kyokley/BattlePyAI) - Framework for creating AIs to play a Battleship-like game
 - [Psql pager in Vim](https://github.com/kyokley/vim-psql-pager) - A pager designed for psql with convenience in mind
 - [Bitcoin Failsafe](https://github.com/kyokley/bitcoin_failsafe) - Create linked and recoverable bitcoin accounts in case of the worst
 - [Confuse](https://github.com/kyokley/confuse) - I18n tool to replace common ascii with easily confusable unicode characters
@@ -35,3 +39,5 @@ Below are repos that contain the various config files for my development environ
 - [NeoVim](https://github.com/kyokley/nvimRepo)
 - [Vim](https://github.com/kyokley/vimRepo) (I mostly use NeoVim exclusively now so this repo is not actively updated.)
 - [Prezto](https://github.com/kyokley/prezto)
+
+## [About Me]({{ site.baseurl }}{% link aboutme.md %})
