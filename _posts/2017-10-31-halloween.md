@@ -37,7 +37,7 @@ This looks like an empty list is being assigned to an empty list. Obviously, tha
 
 The third element is a list being further unpacked into two variables. From there, it's not a huge leap to see that the empty list is actually unpacking into another list that just happens to be empty.
 
-### Boolean sums?
+### Boolean Sums?
 One of the craziest things I've run into is being able to add booleans.
 
 ```python
@@ -53,4 +53,7 @@ As far as I can tell, this is a holdover from a time before booleans were an off
 >>> True = 1 == 1
 ```
 
-If you've ever seen code like this, that's what it is for. In more recent versions of python, the above code returns True. In earlier versions, True would be equal to 1. Therefore, allowing **True** to evaluate to 1 makes sense.
+If you've ever seen code like this, that's what it is for. In more recent versions of python, the above code returns True. In earlier versions, True would be equal to 1. Therefore, allowing **True** to evaluate to 1 makes sense from a historical standpoint.
+
+### Non-existent Slices
+### Small Integers in Memory
