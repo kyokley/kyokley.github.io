@@ -14,15 +14,11 @@ At a Halloween party with my coworkers, the discussion turned to spooky python "
 ### Fun with Unpacking
 During PyCon 2015, David Beazley gave a talk on [concurrency](https://youtu.be/MCs5OvhV9S4). In the middle of the talk, DaBeaz wrote this:
 
-{% highlight python %}
-can_recv, can_send, [] = select(recv_wait, send_wait, [])
-{% endhighlight %}
+`can_recv, can_send, [] = select(recv_wait, send_wait, [])`
 
 Of course, unpacking an iterable is a common task in python
 
-{% highlight python %}
->>> a, b, c = 1, 2, 3
-{% endhighlight %}
+`>>> a, b, c = 1, 2, 3`
 
 This makes sense and does what you would expect, setting a, b, and c to 1, 2, and 3, respectively. However, that's not what happened during the talk.
 
@@ -82,9 +78,9 @@ Above, I'm returning the items of the list between 2 and 4. This is pretty basic
 []
 ```
 Interesting, huh? The [python documentation](https://docs.python.org/2.7/tutorial/introduction.html) mentions this behavior explicitly.
-```
-...out of range slice indexes are handled gracefully when used for slicing
-```
+
+>...out of range slice indexes are handled gracefully when used for slicing
+
 In other words, out of bounds indices are replaced by the min/max indices of the list.
 
 ### Small Integers in Memory
