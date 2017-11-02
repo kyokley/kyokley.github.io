@@ -3,9 +3,10 @@ layout: post
 title: "Spooky Python"
 date: 2017-10-31 19:44:09 -05:00
 tag: python
+excerpt: "Spooky Python: Unexpected Python Features"
 ---
 
-# Spooky Python
+# Spooky Python: Unexpected Python Features
 ## What is the craziest python feature you can think of?
 
 At a Halloween party with my coworkers, the discussion turned to spooky python "features". I don't know if quirks in a language qualify as spooky but it is fun to think about the sometimes unexpected behaviors that you may run into from time to time. With that, some of my favorites are below.
@@ -14,7 +15,9 @@ At a Halloween party with my coworkers, the discussion turned to spooky python "
 During PyCon 2015, David Beazley gave a talk on [concurrency](https://youtu.be/MCs5OvhV9S4). In the middle of the talk, DaBeaz wrote this:
 
 ```python
+{% highlight python %}
 can_recv, can_send, [] = select(recv_wait, send_wait, [])
+{% endhighlight %}
 ```
 
 Of course, unpacking an iterable is a common task in python
