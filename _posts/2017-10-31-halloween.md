@@ -15,16 +15,14 @@ At a Halloween party with my coworkers, the discussion turned to spooky python "
 During PyCon 2015, David Beazley gave a talk on [concurrency](https://youtu.be/MCs5OvhV9S4). In the middle of the talk, DaBeaz wrote this:
 
 {% highlight python %}
-```python
 can_recv, can_send, [] = select(recv_wait, send_wait, [])
-```
 {% endhighlight %}
 
 Of course, unpacking an iterable is a common task in python
 
-```python
+{% highlight python %}
 >>> a, b, c = 1, 2, 3
-```
+{% endhighlight %}
 
 This makes sense and does what you would expect, setting a, b, and c to 1, 2, and 3, respectively. However, that's not what happened during the talk.
 
