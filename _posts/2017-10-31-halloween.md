@@ -14,11 +14,11 @@ At a Halloween party with my coworkers, the discussion turned to spooky python "
 ### Fun with Unpacking
 During PyCon 2015, David Beazley gave a talk on [concurrency](https://youtu.be/MCs5OvhV9S4). In the middle of the talk, DaBeaz wrote this:
 
-```python
 {% highlight python %}
+```python
 can_recv, can_send, [] = select(recv_wait, send_wait, [])
-{% endhighlight %}
 ```
+{% endhighlight %}
 
 Of course, unpacking an iterable is a common task in python
 
