@@ -16,7 +16,7 @@ My goal for this page is to be a place for me to collect my thoughts and possibl
 		<li>
 			  <a href="{{ post.url }}">{{ post.title }}</a>
 			  {{ post.date | date_to_string }}
-			  {{ post.excerpt }}
+			  <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
 		</li>
 	{% endfor %}
 </ul>
