@@ -5,6 +5,7 @@ layout: default
 # About Me
 - Kevin Yokley
 - <kyokley2@gmail.com>
+- PGP Fingerprint: B30B 23C8 FCD4 F3F4 02D2 B701 1504 95A9 BEEE 0CE6
 - Living the dream in Chicago
 
 I am currently employed as a software development manager for Oracle. I consider myself extremely fortunate to work with some of the brightest developers on a daily basis. Even though the majority of my time is spent managing others, I write as much code as I can, when I can.
