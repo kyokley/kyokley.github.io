@@ -12,7 +12,7 @@ My goal for this page is to be a place for me to collect my thoughts and possibl
 ## Posts
 
 <ul>
-	{% for post in site.posts limit: 10 %}
+	{% for post in site.posts limit: 20 %}
 		<li>
 			  <a href="{{ post.url }}">{{ post.title }}</a>
 			  {{ post.date | date_to_string }}
@@ -32,6 +32,7 @@ My goal for this page is to be a place for me to collect my thoughts and possibl
 - [Psql pager in Vim](https://github.com/kyokley/vim-psql-pager) - A pager designed for psql with convenience in mind
 - [Bitcoin Failsafe](https://github.com/kyokley/bitcoin_failsafe) - Create linked and recoverable bitcoin accounts in case of the worst
 - [Confuse](https://github.com/kyokley/confuse) - I18n tool to replace common ascii with easily confusable unicode characters
+- [LockBox](https://github.com/kyokley/lockbox) - Simple Passphrase-based AES Encryption
 
 ## How I work
 Below are repos that contain the various config files for my development environments
