@@ -22,10 +22,11 @@ My goal for this page is to be a place for me to collect my thoughts and possibl
 </ul>
 
 ## Gists
-- VIM Hooks - Some writeups on how to automate some syntax checks to help write better code
+- Vim Hooks - Some writeups on how to automate some syntax checks to help write better code
 	1. [Trailing whitespace handling](https://gist.github.com/kyokley/944de46ab0b35ef4df14)
 	2. [Handling syntax errors](https://gist.github.com/kyokley/0d7bb03eede831bea3fa)
 	3. [Static analysis for security](https://gist.github.com/kyokley/3e868a6575d28cb4020694876d8f16b7)
+- [VCS commands in Vim](https://gist.github.com/kyokley/c10ff97148a6533116ac714ad6fb5ac2)
 
 ## Projects
 - [BattlePy](https://github.com/kyokley/BattlePyAI) - Framework for creating AIs to play a Battleship-like game
@@ -33,6 +34,7 @@ My goal for this page is to be a place for me to collect my thoughts and possibl
 - [Bitcoin Failsafe](https://github.com/kyokley/bitcoin_failsafe) - Create linked and recoverable bitcoin accounts in case of the worst
 - [Confuse](https://github.com/kyokley/confuse) - I18n tool to replace common ascii with easily confusable unicode characters
 - [LockBox](https://github.com/kyokley/lockbox) - Simple Passphrase-based AES Encryption
+- [Color Blame](https://github.com/kyokley/color_blame) - Colorize VCS blame command output
 
 ## How I work
 Below are repos that contain the various config files for my development environments
